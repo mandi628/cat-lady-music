@@ -1,0 +1,47 @@
+/* Cat Lady #2 - https://coolors.co/0d1f2d-e4c3ad-fae1df-9ea3b0-546a7b */
+
+/* CSS HEX */
+--rich-black: #0d1f2dff;
+--desert-sand: #e4c3adff;
+--misty-rose: #fae1dfff;
+--cadet-gray: #9ea3b0ff;
+--paynes-gray: #546a7bff;
+
+/* CSS HSL */
+--rich-black: hsla(206, 55%, 11%, 1);
+--desert-sand: hsla(24, 50%, 79%, 1);
+--misty-rose: hsla(4, 73%, 93%, 1);
+--cadet-gray: hsla(223, 10%, 65%, 1);
+--paynes-gray: hsla(206, 19%, 41%, 1);
+
+/* SCSS HEX */
+$rich-black: #0d1f2dff;
+$desert-sand: #e4c3adff;
+$misty-rose: #fae1dfff;
+$cadet-gray: #9ea3b0ff;
+$paynes-gray: #546a7bff;
+
+/* SCSS HSL */
+$rich-black: hsla(206, 55%, 11%, 1);
+$desert-sand: hsla(24, 50%, 79%, 1);
+$misty-rose: hsla(4, 73%, 93%, 1);
+$cadet-gray: hsla(223, 10%, 65%, 1);
+$paynes-gray: hsla(206, 19%, 41%, 1);
+
+/* SCSS RGB */
+$rich-black: rgba(13, 31, 45, 1);
+$desert-sand: rgba(228, 195, 173, 1);
+$misty-rose: rgba(250, 225, 223, 1);
+$cadet-gray: rgba(158, 163, 176, 1);
+$paynes-gray: rgba(84, 106, 123, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #0d1f2dff, #e4c3adff, #fae1dfff, #9ea3b0ff, #546a7bff);
+$gradient-right: linear-gradient(90deg, #0d1f2dff, #e4c3adff, #fae1dfff, #9ea3b0ff, #546a7bff);
+$gradient-bottom: linear-gradient(180deg, #0d1f2dff, #e4c3adff, #fae1dfff, #9ea3b0ff, #546a7bff);
+$gradient-left: linear-gradient(270deg, #0d1f2dff, #e4c3adff, #fae1dfff, #9ea3b0ff, #546a7bff);
+$gradient-top-right: linear-gradient(45deg, #0d1f2dff, #e4c3adff, #fae1dfff, #9ea3b0ff, #546a7bff);
+$gradient-bottom-right: linear-gradient(135deg, #0d1f2dff, #e4c3adff, #fae1dfff, #9ea3b0ff, #546a7bff);
+$gradient-top-left: linear-gradient(225deg, #0d1f2dff, #e4c3adff, #fae1dfff, #9ea3b0ff, #546a7bff);
+$gradient-bottom-left: linear-gradient(315deg, #0d1f2dff, #e4c3adff, #fae1dfff, #9ea3b0ff, #546a7bff);
+$gradient-radial: radial-gradient(#0d1f2dff, #e4c3adff, #fae1dfff, #9ea3b0ff, #546a7bff);

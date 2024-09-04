@@ -1,0 +1,47 @@
+/* Cat Lady #3 - https://coolors.co/3f0d12-f1f0cc-d5bf86-8d775f-a71d31 */
+
+/* CSS HEX */
+--black-bean: #3f0d12ff;
+--lemon-chiffon: #f1f0ccff;
+--ecru: #d5bf86ff;
+--chamoisee: #8d775fff;
+--madder: #a71d31ff;
+
+/* CSS HSL */
+--black-bean: hsla(354, 66%, 15%, 1);
+--lemon-chiffon: hsla(58, 57%, 87%, 1);
+--ecru: hsla(43, 48%, 68%, 1);
+--chamoisee: hsla(31, 19%, 46%, 1);
+--madder: hsla(351, 70%, 38%, 1);
+
+/* SCSS HEX */
+$black-bean: #3f0d12ff;
+$lemon-chiffon: #f1f0ccff;
+$ecru: #d5bf86ff;
+$chamoisee: #8d775fff;
+$madder: #a71d31ff;
+
+/* SCSS HSL */
+$black-bean: hsla(354, 66%, 15%, 1);
+$lemon-chiffon: hsla(58, 57%, 87%, 1);
+$ecru: hsla(43, 48%, 68%, 1);
+$chamoisee: hsla(31, 19%, 46%, 1);
+$madder: hsla(351, 70%, 38%, 1);
+
+/* SCSS RGB */
+$black-bean: rgba(63, 13, 18, 1);
+$lemon-chiffon: rgba(241, 240, 204, 1);
+$ecru: rgba(213, 191, 134, 1);
+$chamoisee: rgba(141, 119, 95, 1);
+$madder: rgba(167, 29, 49, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);
+$gradient-right: linear-gradient(90deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);
+$gradient-bottom: linear-gradient(180deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);
+$gradient-left: linear-gradient(270deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);
+$gradient-top-right: linear-gradient(45deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);
+$gradient-bottom-right: linear-gradient(135deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);
+$gradient-top-left: linear-gradient(225deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);
+$gradient-bottom-left: linear-gradient(315deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);
+$gradient-radial: radial-gradient(#3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);
