@@ -3,6 +3,8 @@
     font-weight: 400;
     font-style: normal;
   }
+
+/* Cat Lady #3 - https://coolors.co/3f0d12-f1f0cc-d5bf86-8d775f-a71d31 */
   
   :root {
     --black-bean: #3f0d12ff;
@@ -12,13 +14,44 @@
     --madder: #a71d31ff;
   }
 
-  body {
+.clm3-theme {color: var(--black-bean) !important;background-color: var(--lemon-chiffon) !important}
+.clm3-theme-light {color:#000 !important;background-color: var(--ecru) !important}
+.clm3-theme-dark {color: var(--lemon-chiffon) !important;background-color: var(--black-bean) !important}
+
+.clm3-theme-l5 {color:#000 !important;background-color:#e8eaf6 !important}
+.clm3-theme-l4 {color:#000 !important;background-color:#c5cae9 !important}
+.clm3-theme-l3 {color:#000 !important;background-color:#9fa8da !important}
+.clm3-theme-l2 {color:#fff !important;background-color:#7986cb !important}
+.clm3-theme-l1 {color:#fff !important;background-color:#5c6bc0 !important}
+.clm3-theme-d1 {color:#fff !important;background-color:#3949ab !important}
+.clm3-theme-d2 {color:#fff !important;background-color:#303f9f !important}
+.clm3-theme-d3 {color:#fff !important;background-color:#283593 !important}
+.clm3-theme-d4 {color:#fff !important;background-color:#1a237e !important}
+
+.clm3-theme-action {color:var(--lemon-chiffon) !important;background-color:var(--madder) !important}
+.clm3-text-theme {color:var(--black-bean) !important}
+
+.clm3-hover-theme:hover {color:var(--black-bean) !important; background-color:var(--chamoisee) !important}
+.clm3-hover-text-theme:hover {color:var(--madder) !important}
+.clm3-hover-border-theme:hover {border-color:var(--chamoisee) !important}
+
+.clm3-gradient-top {linear-gradient: 0deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
+.clm3-gradient-right {linear-gradient: 90deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
+.clm3-gradient-bottom {linear-grandient: 180deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
+.clm3-gradient-left {linear-gradient: 270deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
+.clm3-gradient-top-right {linear-gradient: 45deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
+.clm3-gradient-bottom-right {linear-gradient: 135deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
+.clm3-gradient-top-left {linear-gradient: 225deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
+.clm3-gradient-bottom-left {linear-gradient: 315deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
+.clm3-gradient-radial {radial-gradient: #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
+
+  /* body {
     background-color: var(--black-bean) !important;
     color: var(--lemon-chiffon) !important;
-  }
+  } */
 
   h1, h2, h3, h4, h5, h6 {
-    color: var(--ecru) !important;
+    /* color: var(--ecru) !important; */
     font-family: "Acme", sans-serif;
   }
 
@@ -34,20 +67,20 @@
     text-decoration: none;
   }
 
-  a.sidebar:hover {
+  /* a.sidebar:hover {
     background-color: var(--ecru) !important;
     color: var(--black-bean) !important;
-  }
+  } */
 
-  .w3-sidebar {
+  /* .w3-sidebar {
     background-color: var(--black-bean) !important;
-  }
+  } */
 
   /* div {
     border: 1px solid white;
   } */
 
-  .shop {
+  /* .shop {
     background-color: var(--chamoisee);
     color: var(--madder);
-  }
+  } */
