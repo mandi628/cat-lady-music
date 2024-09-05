@@ -35,15 +35,15 @@
 .clm3-hover-text-theme:hover {color:var(--madder) !important}
 .clm3-hover-border-theme:hover {border-color:var(--chamoisee) !important}
 
-.clm3-gradient-top {linear-gradient: 0deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
-.clm3-gradient-right {linear-gradient: 90deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
-.clm3-gradient-bottom {linear-grandient: 180deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
-.clm3-gradient-left {linear-gradient: 270deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
-.clm3-gradient-top-right {linear-gradient: 45deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
-.clm3-gradient-bottom-right {linear-gradient: 135deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
-.clm3-gradient-top-left {linear-gradient: 225deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
-.clm3-gradient-bottom-left {linear-gradient: 315deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
-.clm3-gradient-radial {radial-gradient: #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff;}
+.clm3-gradient-top {background: linear-gradient(0deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-right {background: linear-gradient(90deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-bottom {background: linear-grandient(180deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-left {background: linear-gradient(270deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-top-right {background: linear-gradient(45deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-bottom-right {background: linear-gradient(135deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-top-left {background: linear-gradient(225deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-bottom-left {background: linear-gradient(315deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-radial {background: radial-gradient(#3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
 
   /* body {
     background-color: var(--black-bean) !important;
