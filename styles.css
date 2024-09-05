@@ -1,0 +1,48 @@
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  :root {
+    --black-bean: #3f0d12ff;
+    --lemon-chiffon: #f1f0ccff;
+    --ecru: #d5bf86ff;
+    --chamoisee: #8d775fff;
+    --madder: #a71d31ff;
+  }
+
+  body {
+    background-color: var(--black-bean) !important;
+    color: var(--lemon-chiffon) !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--ecru) !important;
+    font-family: "Acme", sans-serif;
+  }
+
+  hr.a {
+    border: 1px solid var(--madder);
+  }
+
+  hr.b {
+    border: 1px solid var(--chamoisee);
+  }
+
+  a.sidebar {
+    text-decoration: none;
+  }
+
+  a.sidebar:hover {
+    background-color: var(--ecru) !important;
+    color: var(--black-bean) !important;
+  }
+
+  .w3-sidebar {
+    background-color: var(--black-bean) !important;
+  }
+
+  /* div {
+    border: 1px solid white;
+  } */
