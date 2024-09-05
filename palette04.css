@@ -11,30 +11,29 @@ hr.a {border: 1px solid var(--madder);}
 hr.b {border: 1px solid var(--chamoisee);}
 
 /* Links */
-clm4-a, clm4-a-d1 {color: #6ba368ff !important;}
-clm4-a-d2, clm4-a-accent {color: #f8c9d8ff !important;}
-clm4-a.hover, clm4-a-accent.hover, clm4-a-d1.hover {color: #f8c9d8ff !important; background-color: #7f675bff !important;}
-clm4-a-d2.hover {color: #f8c9d8ff !important; background-color: #6ba368ff !important;}
+.clm4-a, .clm4-a-d1 {color: #6ba368ff !important;}
+.clm4-a-d2, .clm4-a-accent {color: #f8c9d8ff !important;}
+.clm4-a.hover, .clm4-a-accent.hover, .clm4-a-d1.hover {color: #f8c9d8ff !important; background-color: #7f675bff !important;}
+.clm4-a-d2.hover {color: #f8c9d8ff !important; background-color: #6ba368ff !important;}
 
 /* Buttons */
-clm4-button-dark {color: #f8c9d8ff !important; background-color: #7f675bff !important;}
-clm4-button-d2 {color: #fef8ecff; background-color: #6ba368ff;}
-clm4-button-light {color: #6ba368ff !important; background-color: #f8c9d8ff !important;}
+.clm4-button-dark {color: #f8c9d8ff !important; background-color: #7f675bff !important;}
+.clm4-button-d2 {color: #fef8ecff; background-color: #6ba368ff;}
+.clm4-button-light {color: #6ba368ff !important; background-color: #f8c9d8ff !important;}
 
 /* Light Theme */
-clm4-light {background-color: #fef8ecff !important; color: #0b0a0aff !important;}
-h1-light, h2-light, h3-light, h4-light, h5-light, h6-light {color: #7f675bff !important; font-family: "Acme", sans-serif !important;}
+.clm4-light {background-color: #fef8ecff !important; color: #0b0a0aff !important;}
+.h1-light, .h2-light, .h3-light, .h4-light, .h5-light, .h6-light {color: #7f675bff !important; font-family: "Acme", sans-serif !important;}
 
 /* Dark Theme #1 */
-clm4-d1 {background-color: #0b0a0aff !important; color: #fef8ecff !important;}
-h1-d1, h2-d1, h3-d1, h4-d1, h5-d1, h6-d1 {color: #f8c9d8ff !important; font-family: "Acme", sans-serif !important;}
+.clm4-d1 {background-color: #0b0a0aff !important; color: #fef8ecff !important;}
+.h1-d1, .h2-d1, .h3-d1, .h4-d1, .h5-d1, .h6-d1 {color: #f8c9d8ff !important; font-family: "Acme", sans-serif !important;}
 
 /* Dark Theme #2 */
-clm4-d2 {background-color: #7f675bff !important; color: #fef8ecff !important;}
-h1-d2, h2-d2, h3-d2, h4-d2, h5-d2, h6-d2 {color: #0b0a0aff !important; font-family: "Acme", sans-serif !important;}
-
+.clm4-d2 {background-color: #7f675bff !important; color: #fef8ecff !important;}
+.h1-d2, .h2-d2, .h3-d2, .h4-d2, .h5-d2, .h6-d2 {color: #0b0a0aff !important; font-family: "Acme", sans-serif !important;}
 
 /* Accent Theme */
-clm4-accent {background-color: #6ba368ff !important; color: #fef8ecff !important;}
-h1-accent, h2-accent, h3-accent, h4-accent, h5-accent, h6-accent {color: #0b0a0aff !important; font-family: "Acme", sans-serif !important;}
+.clm4-accent {background-color: #6ba368ff !important; color: #fef8ecff !important;}
+.h1-accent, .h2-accent, .h3-accent, .h4-accent, .h5-accent, .h6-accent {color: #0b0a0aff !important; font-family: "Acme", sans-serif !important;}
 
