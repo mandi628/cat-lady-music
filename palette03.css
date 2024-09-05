@@ -1,0 +1,30 @@
+.clm3-theme {color: var(--black-bean) !important;background-color: var(--lemon-chiffon) !important}
+.clm3-theme-light {color:#000 !important;background-color: var(--ecru) !important}
+.clm3-theme-dark {color: var(--lemon-chiffon) !important;background-color: var(--black-bean) !important}
+
+.clm3-theme-l5 {color:#000 !important;background-color:#e8eaf6 !important}
+.clm3-theme-l4 {color:#000 !important;background-color:#c5cae9 !important}
+.clm3-theme-l3 {color:#000 !important;background-color:#9fa8da !important}
+.clm3-theme-l2 {color:#fff !important;background-color:#7986cb !important}
+.clm3-theme-l1 {color:#fff !important;background-color:#5c6bc0 !important}
+.clm3-theme-d1 {color:#fff !important;background-color:#3949ab !important}
+.clm3-theme-d2 {color:#fff !important;background-color:#303f9f !important}
+.clm3-theme-d3 {color:#fff !important;background-color:#283593 !important}
+.clm3-theme-d4 {color:#fff !important;background-color:#1a237e !important}
+
+.clm3-theme-action {color:var(--lemon-chiffon) !important;background-color:var(--madder) !important}
+.clm3-text-theme {color:var(--black-bean) !important}
+
+.clm3-hover-theme:hover {color:var(--black-bean) !important; background-color:var(--chamoisee) !important}
+.clm3-hover-text-theme:hover {color:var(--madder) !important}
+.clm3-hover-border-theme:hover {border-color:var(--chamoisee) !important}
+
+.clm3-gradient-top {background: linear-gradient(0deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-right {background: linear-gradient(90deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-bottom {background: linear-grandient(180deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-left {background: linear-gradient(270deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-top-right {background: linear-gradient(45deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-bottom-right {background: linear-gradient(135deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-top-left {background: linear-gradient(225deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-bottom-left {background: linear-gradient(315deg, #3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
+.clm3-gradient-radial {background: radial-gradient(#3f0d12ff, #f1f0ccff, #d5bf86ff, #8d775fff, #a71d31ff);}
