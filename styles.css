@@ -46,3 +46,8 @@
   /* div {
     border: 1px solid white;
   } */
+
+  .shop {
+    background-color: var(--chamoisee);
+    color: var(--madder);
+  }
