@@ -12,7 +12,7 @@ hr.b {border: 1px solid var(--fairy-tale);}
 
 /* Links */
 .clm4-a, .clm4-a-d1 {color: #6ba368ff !important;}
-.clm4-a-d2, .clm4-a-accent {color: #f8c9d8ff !important;}
+.clm4-a-d2, .clm4-a-accent {color: #fef8ecff !important; font-weight: bold !important;}
 .clm4-a:hover, .clm4-a-accent:hover, .clm4-a-d1:hover {color: #f8c9d8ff !important; background-color: #7f675bff !important;}
 .clm4-a-d2:hover {color: #f8c9d8ff !important; background-color: #6ba368ff !important;}
 
