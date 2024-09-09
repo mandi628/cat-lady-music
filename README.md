@@ -1,32 +1,14 @@
 # README.md
 
-(Introduction)
+This is a long-term web development project for the rebranding of a client website. They plan to go live with the rebranch in mid-2025.
 
-Project Title: This is the name of the project. It describes the whole project in one sentence, and helps people understand what the main goal and aim of the project is.
-
-- What was your motivation?
-- Why did you build this project?
-- What problem does it solve?
-- What did you learn?
-- What makes your project stand out?
+The client is rebranding their business and wanted a new look to go with the new name and format.
 
 ## What the project does
 
-Project Description: A well-crafted description allows you to show off your work to other developers as well as potential employers.
-
-- What your application does
-- Why you used the technologies you used
-- Some of the challenges you faced and features you hope to implement in the future.
+This is a relatively simple website using HTML, CSS, and CSS frameworks.
 
 ### Features
-
-## Why the project is useful
-
-## How users can get started with the project
-
-### Installation How-To
-
-### How to Use the Project
 
 ### Test Examples
 
