@@ -5,38 +5,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./palette04.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 <style>
 </style>
-<body class="clm3-theme">
+<body class="clm4-light">
   <!-- Page Header -->
-  <div style="position: sticky; top: 0;">
-   <div class="w3-container clm3-theme-dark" id="top">
+  <div style="position: sticky; top: 0; padding-top: 10px;" class="clm4-d1">
+   <div class="w3-container" id="top">
       <div class="w3-row-padding">
         <div class="w3-col s2"><img class="w3-circle" src="./images/orange-tabby.jpg" height="100px" width="auto" alt="orange tabby"></div>
-        <div class="w3-rest"><h1 class="w3-jumbo">Cat Lady Music</h1></div>
+        <div class="w3-rest"><h1 class="w3-jumbo h1-d1">Cat Lady Music</h1></div>
       </div>
-      <hr class="a">
-      <hr class="b">
     </div>
-
+    <hr class="a">
+    <hr class="b">
 
    <!-- Website Navigation -->
-    <div class="w3-bar w3-large clm3-theme-action">
-      <a href="./index.html" class="w3-bar-item w3-button">Home</a>
-      <a href="./blog.html" class="w3-bar-item w3-button">Blog</a>
-      <a href="./courses.html" class="w3-bar-item w3-button">Courses</a>
-      <a href="#" class="w3-bar-item w3-button"  style="color: var(--chamoisee);">Shop</a>
-      <a href="#" class="w3-bar-item w3-button">Contact</a>
+    <div class="w3-bar w3-large clm4-accent">
+      <a href="./index.html" class="w3-bar-item w3-button clm4-a-accent">Home</a>
+      <a href="./blog.html" class="w3-bar-item w3-button clm4-a-accent">Blog</a>
+      <a href="./courses.html" class="w3-bar-item w3-button clm4-a-accent">Courses</a>
+      <a href="#" class="w3-bar-item w3-button"  style="color: var(--night); font-weight: bold;">Shop</a>
+      <a href="#" class="w3-bar-item w3-button clm4-a-accent">Contact</a>
     </div>
   </div>
 
 <!-- Homepage Content -->
 <!-- Left Side Section -->
-  <div class="w3-sidebar w3-bar-block clm3-theme" style="width: 20%; padding-left: 10px; padding-right: 10px;">
-    <h3>Categories</h3>
+  <div class="w3-sidebar w3-bar-block clm4-light" style="width: 20%; padding-left: 10px; padding-right: 10px;">
+    <h3 class="h3-light">Categories</h3>
       <a href="#top" class="sidebar w3-bar-item">All Items</a>
       <a href="#repertoire" class="sidebar w3-bar-item">Repertoire</a>
       <a href="#teaching" class="sidebar w3-bar-item">Teaching Materials</a>
@@ -45,46 +45,47 @@
 
   <!-- Main Section -->
   <div style="margin-left: 20%; padding-left: 10px;">
-    <h1 class="w3-center" style="padding-bottom: 24px;">Welcome to our store!</h1>
+    <h1 class="h1-light" style="padding-bottom: 24px;">Welcome to our store!</h1>
 
     <!-- Product Listings -->
 
-    <h2 id="repertoire">Repertoire Pieces</h2>
+    <h2 id="repertoire" class="h2-light">Repertoire Pieces</h2>
       <div class="w3-row-padding" style="padding-bottom: 24px;">
-        <div class="w3-col s3 w3-card-4 w3-center clm3-theme-light" style="margin: 10px; padding-top: 10px;">
+        <div class="w3-col s3 w3-card-4 w3-center clm4-d2" style="margin: 10px; padding-top: 20px; height: 250px;">
           <img src="./images/sample-product.jpg" height="100px" width="auto" alt="sample image">
           <p>Item #1 goes here</p>
         </div>
 
-        <div class="w3-col s3 w3-card-4 w3-center clm3-theme-light" style="margin: 10px; padding-top: 10px;">
+        <div class="w3-col s3 w3-card-4 w3-center clm4-d2" style="margin: 10px; padding-top: 20px; height: 250px;">
           <img src="./images/sample-product.jpg" height="100px" width="auto" alt="sample image">
           <p>Item #2 goes here</p>
         </div>
 
       </div>
 
-    <h2 id="teaching">Teaching Materials</h2>
+    <h2 id="teaching" class="h2-light">Teaching Materials</h2>
       <div class="w3-row-padding" style="padding-bottom: 24px;">
-        <div class="w3-col s3 w3-card-4 w3-center clm3-theme-action" style="margin: 10px; padding-top: 10px;">
+        <div class="w3-col s3 w3-card-4 w3-center clm4-accent" style="margin: 10px; padding-top: 20px; height: 250px;">
           <img src="./images/sample-product.jpg" height="100px" width="auto" alt="sample image">
-          <p>Item #3 goes here</p>
+          <p><span style="color: var(--floral-white); font-size: 36px; font-weight: bold;" class="acme-regular">SALE!</span><br>
+          Item #3 goes here</p>
         </div>
 
-        <div class="w3-col s3 w3-card-4 w3-center clm3-theme-light" style="margin: 10px; padding-top: 10px;">
+        <div class="w3-col s3 w3-card-4 w3-center  clm4-d2" style="margin: 10px; padding-top: 20px; height: 250px;">
           <img src="./images/sample-product.jpg" height="100px" width="auto" alt="sample image">
           <p>Item #4 goes here</p>
         </div>
 
-        <div class="w3-col s3 w3-card-4 w3-center clm3-theme-light" style="margin: 10px; padding-top: 10px;">
+        <div class="w3-col s3 w3-card-4 w3-center clm4-d2" style="margin: 10px; padding-top: 20px; height: 250px;">
           <img src="./images/sample-product.jpg" height="100px" width="auto" alt="sample image">
           <p>Item #5 goes here</p>
         </div>
 
       </div>
 
-    <h2 id="practice">Practice Materials</h2>
+    <h2 id="practice" class="h2-light">Practice Materials</h2>
       <div class="w3-row-padding" style="padding-bottom: 24px;">
-        <div class="w3-col s3 w3-card-4 w3-center clm3-theme-light" style="margin: 10px; padding-top: 10px;">
+        <div class="w3-col s3 w3-card-4 w3-center clm4-d2" style="margin: 10px; padding-top: 20px; height: 250px;">
           <img src="./images/sample-product.jpg" height="100px" width="auto" alt="sample image">
           <p>Item #6 goes here</p>
         </div>
